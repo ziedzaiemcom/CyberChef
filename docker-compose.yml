@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  cyberchef:
+    build: .
+    container_name: cyberchef
+    restart: unless-stopped
+    ports:
+      - 8080:80
